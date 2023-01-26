@@ -258,6 +258,17 @@ export const Resume: React.FC = () => {
           <Section id="langs" header="Languages">
             <BulletedList bullets={["English", "French", "Romanian"]} />
           </Section>
+
+          <Section id="articles" header="Articles">
+            <BulletedList
+              bullets={[
+                {
+                  label: "Build your resume in React + SSG!",
+                  href: "https://dev.to/jeckhummer/build-your-resume-in-react-ssg-10i4",
+                },
+              ]}
+            />
+          </Section>
         </div>
       </body>
     </html>
@@ -354,13 +365,7 @@ interface ILink {
 function isLink(x: any): x is ILink {
   return x.label !== undefined;
 }
-const Link: React.FC<ILink> = ({
-  label,
-  href,
-  className,
-  highlight,
-  target = "_blank",
-}) => {
+const Link: React.FC<ILink> = ({label, href, className, highlight, target = "_blank"}) => {
   const a = (
     <a target={target} href={href} className={className}>
       {label}
@@ -369,10 +374,7 @@ const Link: React.FC<ILink> = ({
   return highlight ? <strong>{a}</strong> : a;
 };
 
-const Phone: React.FC<{ number: string; countryCode: string }> = ({
-  number,
-  countryCode,
-}) => {
+const Phone: React.FC<{ number: string; countryCode: string }> = ({number, countryCode}) => {
   return (
     <Link
       label={countryCode + " " + number}
@@ -383,18 +385,13 @@ const Phone: React.FC<{ number: string; countryCode: string }> = ({
 };
 
 type IBullet = React.ReactNode | ILink | IBullet[];
-const BulletedList: React.FC<{ bullets: IBullet[]; id?: string }> = ({
-  bullets,
-  id,
-}) => {
+const BulletedList: React.FC<{ bullets: IBullet[]; id?: string }> = ({bullets, id, }) => {
   return (
     <ul id={id}>
       {bullets.map((x, i) =>
-        Array.isArray(x) ? (
-          <BulletedList key={i} bullets={x} />
-        ) : (
-          <li key={i}>{isLink(x) ? <Link {...x} /> : x}</li>
-        )
+        Array.isArray(x) 
+		? (<BulletedList key={i} bullets={x} />) 
+		: (<li key={i}>{isLink(x) ? <Link {...x} /> : x}</li>)
       )}
     </ul>
   );
