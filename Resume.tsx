@@ -60,14 +60,14 @@ export const Resume: React.FC = () => {
           <Section id="experience" header="Experience">
             <JobSection
               company={{
-                name: "Google",
-                link: "https://google.com",
+                name: "General Electric",
+                link: "https://www.ge.com/",
               }}
-              location="USA"
-              position="Senior Frontend Engineer"
+              location="Romania"
+              position="Senior Software Engineer"
               dates={{
-                from: "December 2021",
-                to: "December 2022",
+                from: "November 2020",
+                to: "Present",
               }}
               bullets={[
                 <>
@@ -95,13 +95,13 @@ export const Resume: React.FC = () => {
 
             <JobSection
               company={{
-                name: "Amazon",
-                link: "https://amazon.com",
+                name: "Sogeti",
+                link: "https://www.sogeti.lu/",
               }}
-              location="USA"
-              position="Senior Frontend Engineer"
+              location="Luxembourg"
+              position=".NET Consultant"
               dates={{
-                from: "December 2019",
+                from: "February 2020",
                 to: "December 2020",
               }}
               bullets={[
@@ -113,14 +113,14 @@ export const Resume: React.FC = () => {
 
             <JobSection
               company={{
-                name: "Meta",
-                link: "https://meta.com",
+                name: "General Electric",
+                link: "https://www.ge.com/",
               }}
-              location="USA"
-              position="Frontend Engineer"
+              location="Romania"
+              position="Senior Software Engineer"
               dates={{
-                from: "August 2018",
-                to: "May 2019",
+                from: "September 2018",
+                to: "February 2020",
               }}
               bullets={[
                 "Quos inventore deserunt repellendus aliquam expedita quidem odit nobis possimus, assumenda perspiciatis. Beatae nihil dignissimos cum atque ut ratione ad, rerum ipsam quibusdam iusto ea officiis suscipit architecto voluptas corrupti officia.",
@@ -131,27 +131,79 @@ export const Resume: React.FC = () => {
 
             <JobSection
               company={{
-                name: "Netflix",
-                link: "https://netflix.com/",
+                name: "IBM",
+                link: "https://www.ibm.com/",
               }}
-              location="USA"
-              position="Full-stack Engineer"
+              location="Romania"
+              position="IT Consultant (.NET)"
               dates={{
-                from: "August 2015",
-                to: "August 2018",
+                from: "October 2017",
+                to: "October 2018",
               }}
             />
 
             <JobSection
               company={{
-                name: "Spotify",
-                link: "https://spotify.com/",
+                name: "Alten",
+                link: "https://www.alten.com/",
               }}
-              location="USA"
-              position="Intern"
+              location="Romania"
+              position="IT Consultant (.NET)"
               dates={{
-                from: "August 2014",
-                to: "August 2015",
+                from: "May 2015",
+                to: "October 2017",
+              }}
+            />
+
+            <JobSection
+              company={{
+                name: "Softvision",
+                link: "https://www.cognizantsoftvision.com/studios/bucharest/",
+              }}
+              location="Romania"
+              position=".NET Developer"
+              dates={{
+                from: "January 2014",
+                to: "March 2015",
+              }}
+            />
+
+            <JobSection
+              company={{
+                name: "EveryMatrix",
+                link: "https://everymatrix.com/",
+              }}
+              location="Romania"
+              position=".NET Developer"
+              dates={{
+                from: "March 2013",
+                to: "January 2014",
+              }}
+            />
+
+            <JobSection
+              company={{
+                name: "Optima Group",
+                link: "https://www.optima.ro/en",
+              }}
+              location="Romania"
+              position=".NET Developer"
+              dates={{
+                from: "May 2012",
+                to: "February 2013",
+              }}
+            />
+
+            <JobSection
+              company={{
+                name: "Fepa",
+                link: "https://fepa.ro/wp/",
+              }}
+              location="Romania"
+              position="Programmer"
+              dates={{
+                from: "October 2009",
+                to: "January 2011",
               }}
             />
           </Section>
