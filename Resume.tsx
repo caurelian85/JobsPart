@@ -221,6 +221,8 @@ export const Resume: React.FC = () => {
                 from: "2012",
                 to: "2014/2021",
               }}
+              finalWorkType="Dissertation"
+              finalWorkTitle="ECG Authentication"
             />
             <EducationSubsection
               institution={{
@@ -234,6 +236,8 @@ export const Resume: React.FC = () => {
                 from: "2004",
                 to: "2009",
               }}
+              finalWorkType="License Thesis"
+              finalWorkTitle="Analysis testability of S344 circuit"
             />
           </Section>
 
@@ -348,7 +352,9 @@ const EducationSubsection: React.FC<{
   degree: string;
   faculty: string;
   dates: { from: string; to: string };
-}> = ({ institution, location, faculty, dates, degree }) => {
+  finalWorkType: string;
+  finalWorkTitle: string;
+}> = ({ institution, location, faculty, dates, degree, finalWorkType, finalWorkTitle }) => {
   return (
     <Subsection
       header={
@@ -362,6 +368,9 @@ const EducationSubsection: React.FC<{
       </div>
       <div className="dates">
         {dates.from} - {dates.to}
+      </div>
+      <div style={{ marginTop: "0.3rem" }}>
+        {finalWorkType} — {finalWorkTitle}
       </div>
     </Subsection>
   );
