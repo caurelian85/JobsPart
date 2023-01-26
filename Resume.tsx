@@ -33,12 +33,7 @@ export const Resume: React.FC = () => {
 			Aurelian is a Software Developer with several years of experience 
 			primarily using a Microsoft-based stack where he has developed with 
 			a wide range of technologies - database, desktop, web, and mobile. 
-			The industries that Aurelian has worked in include gambling, financial-banking, insurance, and logistics.
-            
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+			The industries that Aurelian has worked in include gambling, financial-banking, insurance, and logistics.            
           </p>
 
           <BulletedList
@@ -163,15 +158,28 @@ export const Resume: React.FC = () => {
           <Section id="education" header="Education">
             <EducationSubsection
               institution={{
-                name: "MIT",
-                href: "https://www.mit.edu/",
+                name: "Faculty of Electronics, Telecommunications and Information Technology",
+                href: "http://www.electronica.pub.ro/",
               }}
-              location="Cambridge, USA"
+              location="Bucharest, Romania"
+              degree="Master's degree"
+              faculty="Multimedia technologies for medical applications"
+              dates={{
+                from: "2012",
+                to: "2014/2021",
+              }}
+            />
+            <EducationSubsection
+              institution={{
+                name: "Faculty of Automatic Control and Computer Engineering",
+                href: "https://ac.tuiasi.ro/",
+              }}
+              location="Iasi, Romania"
               degree="Bachelor's degree"
               faculty="Computer Science and Engineering"
               dates={{
-                from: "2010",
-                to: "2014",
+                from: "2004",
+                to: "2009",
               }}
             />
           </Section>
@@ -179,22 +187,23 @@ export const Resume: React.FC = () => {
           <Section id="skills" header="Skills">
             <BulletedList
               bullets={[
-                "HTML, CSS",
-                "React, Angular",
-                "JavaScript, Typescript",
-                "Bundlers (Webpack, Parcel, Vite)",
+                "ASP.NET, .NET CORE, WCF",
+                "C#, C/C++, Python, Java, PL SQL",
+                "Entity Framework, ADO.NET, SQL Server",
+                "React, Amgular",
+                "JavaScript, TypeScript",
                 "Express.js, Node.js (CLI apps)",
+                "HTML, CSS",
                 "OOP, SOLID, Patterns",
-                "Developing, Testing",
+                "Developing, Testing, Debugging",
                 "CI/CD",
-                "Agile, Scrum",
-                "UX, Animations",
+                "Agile, Scrum, Jira",
               ]}
             />
           </Section>
 
           <Section id="langs" header="Languages">
-            <BulletedList bullets={["English", "Spanish", "French"]} />
+            <BulletedList bullets={["English", "French", "Romanian"]} />
           </Section>
 
           <Section id="articles" header="Articles">
