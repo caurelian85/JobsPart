@@ -7,7 +7,7 @@ export const Resume: React.FC = () => {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>John Doe - Frontend Developer</title>
+        <title>Aurelian Cozma-Dunareanu - Software Developer</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -28,7 +28,7 @@ export const Resume: React.FC = () => {
 
       <body>
         <div id="layout">
-          <h1 id="name">John Doe</h1>
+          <h1 id="name">Aurelian Cozma-Dunareanu</h1>
           <p id="bio">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -40,18 +40,18 @@ export const Resume: React.FC = () => {
             id="contacts"
             bullets={[
               "City, Country",
-              <Phone countryCode="+999" number="999999999" />,
+              <Phone countryCode="+40" number="720889398" />,
               {
-                label: "john.doe@gmail.com",
-                href: "mailto:john.doe@gmail.com",
+                label: "aurelian.cozma.dunareanu@gmail.com",
+                href: "mailto:aurelian.cozma.dunareanu@gmail.com",
               },
               {
                 label: "GitHub",
-                href: "https://www.github.com/",
+                href: "https://www.github.com/caurelian85",
               },
               {
                 label: "LinkedIn",
-                href: "https://www.linkedin.com",
+                href: "https://www.linkedin.com/in/caurelian/",
               },
             ]}
           />

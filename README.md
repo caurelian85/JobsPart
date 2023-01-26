@@ -1,2 +1,2 @@
-Demo: https://caurelian85/Resume_Aurelian-C-D
+Demo: https://caurelian85.github.io/Resume_Aurelian-C-D/
 /
