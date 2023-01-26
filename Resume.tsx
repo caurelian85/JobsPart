@@ -259,13 +259,24 @@ export const Resume: React.FC = () => {
             <BulletedList bullets={["English", "French", "Romanian"]} />
           </Section>
 
-          <Section id="articles" header="Articles">
+          <Section id="certifications" header="Licenses and Certifications">
             <BulletedList
               bullets={[
+			    {
+				  label: "Python Data Structure",
+				  href: "https://www.coursera.org/account/accomplishments/verify/52DEXUCAGDB9"
+			    },
+			    {
+				  label: "Programming for Everybody (Getting Started with Python)",
+				  href: "https://www.coursera.org/account/accomplishments/verify/K7LYLPSCM8K5"
+			    },
+				{
+				  label: "Practitioner of NLP"
+				},
                 {
-                  label: "Build your resume in React + SSG!",
-                  href: "https://dev.to/jeckhummer/build-your-resume-in-react-ssg-10i4",
-                },
+                  label: "Algorithms: Design and Analysis, Part 1",
+                  href: "https://github.com/caurelian85/Resume-Docs/blob/master/Pdf/Design%20and%20Analysis%20Part%20I%20_%20Aurelian%20C-D.pdf",
+                }
               ]}
             />
           </Section>
