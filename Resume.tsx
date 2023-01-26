@@ -276,7 +276,8 @@ export const Resume: React.FC = () => {
                 {
                   label: "Algorithms: Design and Analysis, Part 1",
                   href: "https://github.com/caurelian85/Resume-Docs/blob/master/Pdf/Design%20and%20Analysis%20Part%20I%20_%20Aurelian%20C-D.pdf",
-                }
+                ,
+				  label: Driving license class B
               ]}
             />
           </Section>
