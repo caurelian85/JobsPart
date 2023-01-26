@@ -33,7 +33,8 @@ export const Resume: React.FC = () => {
 			Aurelian is a Software Developer with several years of experience 
 			primarily using a Microsoft-based stack where he has developed with 
 			a wide range of technologies - database, desktop, web, and mobile. 
-			The industries that Aurelian has worked in include gambling, financial-banking, insurance, and logistics.            
+			The industries that Aurelian has worked in include gambling, 
+			financial-banking, insurance, and market-power.            
           </p>
 
           <BulletedList
@@ -204,17 +205,6 @@ export const Resume: React.FC = () => {
 
           <Section id="langs" header="Languages">
             <BulletedList bullets={["English", "French", "Romanian"]} />
-          </Section>
-
-          <Section id="articles" header="Articles">
-            <BulletedList
-              bullets={[
-                {
-                  label: "Build your resume in React + SSG!",
-                  href: "https://dev.to/jeckhummer/build-your-resume-in-react-ssg-10i4",
-                },
-              ]}
-            />
           </Section>
         </div>
       </body>
