@@ -30,7 +30,12 @@ export const Resume: React.FC = () => {
         <div id="layout">
           <h1 id="name">Aurelian Cozma-Dunareanu</h1>
           <p id="bio">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+			Aurelian is a Software Developer with several years of experience 
+			primarily using a Microsoft-based stack where he has developed with 
+			a wide range of technologies - database, desktop, web, and mobile. 
+			The industries that Aurelian has worked in include gambling, financial-banking, insurance, and logistics.
+            
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
@@ -39,7 +44,7 @@ export const Resume: React.FC = () => {
           <BulletedList
             id="contacts"
             bullets={[
-              "City, Country",
+              "Oradea, Romania",
               <Phone countryCode="+40" number="720889398" />,
               {
                 label: "aurelian.cozma.dunareanu@gmail.com",
@@ -175,12 +180,12 @@ export const Resume: React.FC = () => {
             <BulletedList
               bullets={[
                 "HTML, CSS",
-                "React.js",
+                "React, Angular",
                 "JavaScript, Typescript",
                 "Bundlers (Webpack, Parcel, Vite)",
                 "Express.js, Node.js (CLI apps)",
                 "OOP, SOLID, Patterns",
-                "Testing",
+                "Developing, Testing",
                 "CI/CD",
                 "Agile, Scrum",
                 "UX, Animations",
