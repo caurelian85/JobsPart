@@ -30,11 +30,11 @@ export const Resume: React.FC = () => {
         <div id="layout">
           <h1 id="name">Aurelian Cozma-Dunareanu</h1>
           <p id="bio">
-			Aurelian is a Software Developer with several years of experience 
-			primarily using a Microsoft-based stack where he has developed with 
-			a wide range of technologies - database, desktop, web, and mobile. 
-			The industries that Aurelian has worked in include gambling, 
-			financial-banking, insurance, and market-power.            
+            Aurelian is a Software Developer with several years of experience 
+            primarily using a Microsoft-based stack where he has developed with 
+            a wide range of technologies - database, desktop, web, and mobile. 
+            The industries that Aurelian has worked in include gambling, 
+            financial-banking, insurance, and market-power.            
           </p>
 
           <BulletedList
@@ -271,12 +271,15 @@ export const Resume: React.FC = () => {
                   href: "https://www.coursera.org/account/accomplishments/verify/52DEXUCAGDB9"
                 },
                 {
-                  label: "Programming for Everybody (Getting Started with Python)",
+                  label: "Programming for Everybody",
                   href: "https://www.coursera.org/account/accomplishments/verify/K7LYLPSCM8K5"
                 },
-                 "Practitioner of NLP",
                 {
-                  label: "Algorithms: Design and Analysis, Part 1",
+                  label: "Practitioner of NLP",
+                  href: "https://github.com/caurelian85/Resume-Docs/blob/master/Images/NLP_Certificate.jpg"
+                },
+                {
+                  label: "Algorithms: Design and",
                   href: "https://github.com/caurelian85/Resume-Docs/blob/master/Pdf/Design%20and%20Analysis%20Part%20I%20_%20Aurelian%20C-D.pdf",
                 },
                  "Driving license class B",
