@@ -41,7 +41,7 @@ export const Resume: React.FC = () => {
             id="contacts"
             bullets={[
               "Oradea, Romania",
-              <Phone countryCode="+40" number="720889398" />,
+              <Phone countryCode="+4" number="0720889398" />,
               {
                 label: "aurelian.cozma.dunareanu@gmail.com",
                 href: "mailto:aurelian.cozma.dunareanu@gmail.com",
@@ -263,7 +263,7 @@ export const Resume: React.FC = () => {
             <BulletedList bullets={["English", "French", "Romanian"]} />
           </Section>
 
-          <Section id="certifications skills" header="Licenses and Certifications">
+          <Section id="certifications" header="Licenses and Certifications">
             <BulletedList
               bullets={[
                 {
