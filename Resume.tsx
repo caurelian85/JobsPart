@@ -263,7 +263,7 @@ export const Resume: React.FC = () => {
             <BulletedList bullets={["English", "French", "Romanian"]} />
           </Section>
 
-          <Section id="certifications" header="Licenses and Certifications">
+          <Section id="certifications" header="Licenses and">
             <BulletedList
               bullets={[
                 {
