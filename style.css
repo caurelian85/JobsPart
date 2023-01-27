@@ -73,11 +73,11 @@ html * {
       "name"
       "contacts"
       "bio"
-      "certifications"
       "skills"
       "experience"
       "education"
-      "langs";
+      "langs"
+      "certifications";
   }
 
   #contacts li {
@@ -97,9 +97,9 @@ html * {
     grid-template-areas:
       "name contacts"
       "bio contacts"
-      "certifications skills"
       "experience skills"
       "experience langs"
+      "certifications skills"
       "experience ."
       "education .";
   }
