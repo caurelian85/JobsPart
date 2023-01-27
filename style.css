@@ -37,8 +37,8 @@ html * {
   grid-area: langs;
 }
 
-#articles {
-  grid-area: articles;
+#certifications {
+  grid-area: certifications;
 }
 
 #education {
@@ -73,7 +73,7 @@ html * {
       "name"
       "contacts"
       "bio"
-      "articles"
+      "certifications"
       "skills"
       "experience"
       "education"
@@ -97,7 +97,7 @@ html * {
     grid-template-areas:
       "name contacts"
       "bio contacts"
-      "articles skills"
+      "certifications skills"
       "experience skills"
       "experience langs"
       "experience ."
