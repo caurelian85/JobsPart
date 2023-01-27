@@ -263,7 +263,7 @@ export const Resume: React.FC = () => {
             <BulletedList bullets={["English", "French", "Romanian"]} />
           </Section>
 
-          <Section id="certifications" header="Licenses and">
+          <Section id="skills" header="Licenses and Certifications">
             <BulletedList
               bullets={[
                 {
@@ -271,7 +271,7 @@ export const Resume: React.FC = () => {
                   href: "https://www.coursera.org/account/accomplishments/verify/52DEXUCAGDB9"
                 },
                 {
-                  label: "Programming for Everybody",
+                  label: "Programming for Everybody (Getting Started with Python)",
                   href: "https://www.coursera.org/account/accomplishments/verify/K7LYLPSCM8K5"
                 },
                 {
@@ -279,7 +279,7 @@ export const Resume: React.FC = () => {
                   href: "https://github.com/caurelian85/Resume-Docs/blob/master/Images/NLP_Certificate.jpg"
                 },
                 {
-                  label: "Algorithms: Design and",
+                  label: "Algorithms: Design and Analysis, Part 1",
                   href: "https://github.com/caurelian85/Resume-Docs/blob/master/Pdf/Design%20and%20Analysis%20Part%20I%20_%20Aurelian%20C-D.pdf",
                 },
                  "Driving license class B",
